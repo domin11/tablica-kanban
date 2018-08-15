@@ -1,8 +1,19 @@
-body {
-  margin: 0 auto;
-  padding: 0;
-  background-color: green;
-}
-.board {
-  width: 100vw;
-}
+body { margin: 0 auto; padding: 0; background-image: url("https://www.publicdomainpictures.net/pictures/30000/velka/cork-board.jpg"); }
+
+.container { width: 100%; padding-top: 8vh; height: 100vh; text-align: center; margin: 0 auto; }
+
+.board { margin: 0 auto; }
+
+.column-container { margin: 0 auto; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.column { width: 100%; margin-left: 40px; }
+
+.column-title { background: white; width: 300px; padding: 30px 15px; border: 1px solid #DDD; line-height: 30px; position: relative; box-shadow: 0 0 10px #DDD; border-radius: 4px; }
+
+.column-title img { position: absolute; right: 0; top: -20px; }
+
+.card { background: #FFFFCA; width: 300px; margin-left: -40px; margin-bottom: 20px; padding: 30px 15px; border: 1px solid #DDD; line-height: 30px; position: relative; box-shadow: 0 0 10px #DDD; border-radius: 4px; }
+
+.card img { position: absolute; right: 0; top: -20px; }
+
+.btn-delete { position: absolute; right: 0; bottom: 0; }
