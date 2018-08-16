@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 body {
   margin: 0 auto;
   padding: 0;
   background-image: url('https://www.publicdomainpictures.net/pictures/30000/velka/cork-board.jpg');
+  font-family: 'Courgette', cursive;
 }
 .container {
 	width: 100%;
@@ -26,6 +29,7 @@ body {
   background: white;
   width: 300px;
   padding: 30px 15px;
+  font-size: 46px;
   border: 1px solid #DDD;
   line-height: 30px;
   position: relative;
@@ -37,8 +41,8 @@ body {
     top:-20px;
   }
 }
-.column-card-list {
-
+ul {
+  list-style-type: none;
 }
 .card {
 	background: #FFFFCA;
@@ -46,6 +50,7 @@ body {
   margin-left: -40px;
   margin-bottom: 20px;
 	padding: 30px 15px;
+  font-size: 30px;
 	border: 1px solid #DDD;
 	line-height: 30px;
 	position: relative;
@@ -62,7 +67,12 @@ body {
 
 }
 button {
-
+  background: white;
+  font-family: 'Arial';
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px;
+  cursor: pointer;
 }
 .create-column {
 
