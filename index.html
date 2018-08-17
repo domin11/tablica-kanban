@@ -11,13 +11,13 @@
       <button class="create-column">Add a column</button>
       <div class="column-container"></div>
   	</div>
-  </div>  
+  </div>
 
   <script id="column-template" type="x-tmpl-mustache">
     <div class="column">
         <h2 class="column-title">{{ name }}
         <img src="images/pin.png" alt=""/></h2>
-        <ul id={{ id }} class="column-card-list"></ul>
+        <ul id="{{ id }}" class="column-card-list"></ul>
         <button class="btn-delete">X</button>
         <button class="add-card">Add a card</button>
     </div>

@@ -13,7 +13,7 @@ body { margin: 0 auto; padding: 0; background-image: url("https://www.publicdoma
 
 .column-title img { position: absolute; right: 0; top: -20px; }
 
-ul { list-style-type: none; }
+ul { list-style-type: none; min-height: 90px; }
 
 .card { background: #FFFFCA; width: 300px; margin-left: -40px; margin-bottom: 20px; padding: 30px 15px; font-size: 30px; border: 1px solid #DDD; line-height: 30px; position: relative; box-shadow: 0 0 10px #DDD; border-radius: 4px; }
 

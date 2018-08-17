@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     this.id = randomString();
     this.name = name;
-    this.element = generateTemplate('column-template', { name: this.name });
+    this.element = generateTemplate('column-template', { name: this.name, id: this.id });
 
     this.element.querySelector('.column').addEventListener('click', function (event) {
       if (event.target.classList.contains('btn-delete')) {
@@ -86,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //funkcja drag and drop
   function initSortable(id) {
     var el = document.getElementById(id);
+    console.log(id, el);
     var sortable = Sortable.create(el, {
       group: 'kanban',
       sort: true
